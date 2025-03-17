@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- Objective: Creating a webpage using HTML Basics to structure the skeleton
+  1. HTML Basics.
+  2. Building the skeleton (Structure of an HTML Documents)
+  3. Building websites with HTML Elements.
+  4. HTML Forms and Input types.
+  5. Accessibility and Semantics.
+ -->
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Basics</title>
+</head>
+<body>
+  <!-- This is my Heading -->
+  <header>
+    <h1>Welcome to my Webpage!</h1>
+    <p>This is All About <b>Html Basics</b></p>
+  <hr>
+  <!-- This is my Navigation -->
+  <nav>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#sign_up">Sign Up</a></li>
+  </nav>
+
+  </header>
+  <hr>
+  <!-- Main section begins here -->
+  <main>
+  <div id="home">
+    <h2>About Me</h2>
+    <img src="./Photo.jpeg" alt="Profile Picture" width="300px">
+    <p>
+      Hello, I'm a Software Developer.
+    </p>
+    <a href="../Html_Basics Proj/about.html" target="_blank">Visit my page</a>
+  </div>
+  <hr>
+
+  <!-- This is users information -->
+  <div id="sign_up">
+    <h2>HTML Forms and Inputs Type</h2>
+    <form action="">
+      <h3>Sign up</h3>
+      <label for="name">First Name:</label> <br>
+      <input type="text" name="name" id="name" placeholder="First Name">
+      <br>
+
+      <label for="name">Last Name:</label> <br>
+      <input type="text" name="name" id="name" placeholder="Last Name">
+      <br>
+
+      <label for="name">Telephone:</label> <br>
+      <input type="number" name="telephone" id="telephone" placeholder="Your Number">
+      <br>
+      <br>
+      <label for="gender">Male</label>
+      <input type="checkbox" name="male" id="male">
+      <br>
+      <label for="gender">Female</label>
+      <input type="checkbox" name="female" id="female">
+      <br>
+      <br>
+
+      <label for="message">Message</label> <br>
+      <textarea name="comment" id="comment" cols="30" rows="10">Write your message here</textarea>
+      <br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+  </main>
+  <!-- Main ends here -->
+  <br>
+  <!-- This is Footer section -->
+  <footer>
+    <p>&copy; 2025 Web Developer</p>
+  </footer>
+  
+</body>
+</html>
